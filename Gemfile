@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
 
 
 # Use ActiveStorage variant
