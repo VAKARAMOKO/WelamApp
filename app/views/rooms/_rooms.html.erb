@@ -1,0 +1,18 @@
+<div class="mb-3">
+  <%= link_to new_room_path, class: 'btn btn-primary' do %>
+    Créez un Welam
+  <% end %>
+</div>
+
+<% if @rooms.present? %>
+  <nav class="nav flex-columnalert alert-primary alert-heading">
+    <% @rooms.each do |room| %>
+      <%= link_to room.name, room_path(room), class: 'nav-link room-nav-link' %>
+       <hr />
+    <% end %>
+  </nav>
+<% else %>
+  <div class="text-muted">
+  Vous n'avez encore crée de Welam
+  </div>
+<% end %>

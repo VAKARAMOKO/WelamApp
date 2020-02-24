@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,7 +17,10 @@
    <div class="container">
       <div class="row">
         <div class="col-12">
-          <%= yield %>
+          <%= render partial: 'shared/nav/navbar' %>
+          <div class="my-3">
+            <%= yield %>
+          </div>
         </div>
       </div>
     </div>

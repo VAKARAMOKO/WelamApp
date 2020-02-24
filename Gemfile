@@ -32,7 +32,7 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
-
+gem 'redis', '~> 4.1', '>= 4.1.3'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
