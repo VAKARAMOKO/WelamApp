@@ -33,6 +33,8 @@ gem 'simple_form', '~> 5.0', '>= 5.0.2'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'redis', '~> 4.1', '>= 4.1.3'
+gem 'webpacker', '~> 4.2', '>= 4.2.2'
+gem 'tailwindcss', '~> 1.0', '>= 1.0.3'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
